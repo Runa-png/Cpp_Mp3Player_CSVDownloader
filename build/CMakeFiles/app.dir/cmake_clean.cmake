@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/app.dir/link.d"
+  "CMakeFiles/app_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/app_autogen.dir/ParseCache.txt"
+  "app_autogen"
+  "CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/app.dir/colors/colors.cpp.o"
+  "CMakeFiles/app.dir/colors/colors.cpp.o.d"
+  "CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o"
+  "CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o.d"
+  "CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o"
+  "CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o.d"
+  "CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o"
+  "CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o.d"
+  "CMakeFiles/app.dir/main.cpp.o"
+  "CMakeFiles/app.dir/main.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/mainWindow.cpp.o"
+  "CMakeFiles/app.dir/widgets/mainWindow.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o.d"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o"
+  "CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o.d"
+  "CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o"
+  "CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o.d"
+  "app"
+  "app.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/app.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

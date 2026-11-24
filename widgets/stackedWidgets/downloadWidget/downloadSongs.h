@@ -1,0 +1,3 @@
+class downloadWidget;
+
+void downloadSongs();
