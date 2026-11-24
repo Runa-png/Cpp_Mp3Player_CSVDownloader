@@ -1,7 +1,7 @@
 CMakeFiles/app.dir/colors/colors.cpp.o: \
- /home/runa/GitHub/Runafy/colors/colors.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
- /home/runa/GitHub/Runafy/colors/colors.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.h \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/string \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/bits/requires_hosted.h \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \

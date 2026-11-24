@@ -54,10 +54,10 @@ RM = /nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runa/GitHub/Runafy
+CMAKE_SOURCE_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runa/GitHub/Runafy/build
+CMAKE_BINARY_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ CMakeFiles/app.dir/all: CMakeFiles/app_autogen_timestamp_deps.dir/all
 CMakeFiles/app.dir/all: CMakeFiles/app_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Runafy/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Runafy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -105,7 +105,7 @@ app: CMakeFiles/app.dir/rule
 # codegen rule for target.
 CMakeFiles/app.dir/codegen: CMakeFiles/app_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Finished codegen for target app"
 .PHONY : CMakeFiles/app.dir/codegen
 
 # clean rule for target.
@@ -120,14 +120,14 @@ CMakeFiles/app.dir/clean:
 CMakeFiles/app_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_autogen_timestamp_deps.dir/build.make CMakeFiles/app_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_autogen_timestamp_deps.dir/build.make CMakeFiles/app_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num= "Built target app_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num= "Built target app_autogen_timestamp_deps"
 .PHONY : CMakeFiles/app_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Runafy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Runafy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles 0
 .PHONY : CMakeFiles/app_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ app_autogen_timestamp_deps: CMakeFiles/app_autogen_timestamp_deps.dir/rule
 # codegen rule for target.
 CMakeFiles/app_autogen_timestamp_deps.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_autogen_timestamp_deps.dir/build.make CMakeFiles/app_autogen_timestamp_deps.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num= "Finished codegen for target app_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num= "Finished codegen for target app_autogen_timestamp_deps"
 .PHONY : CMakeFiles/app_autogen_timestamp_deps.dir/codegen
 
 # clean rule for target.
@@ -152,14 +152,14 @@ CMakeFiles/app_autogen_timestamp_deps.dir/clean:
 CMakeFiles/app_autogen.dir/all: CMakeFiles/app_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_autogen.dir/build.make CMakeFiles/app_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_autogen.dir/build.make CMakeFiles/app_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=17 "Built target app_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=17 "Built target app_autogen"
 .PHONY : CMakeFiles/app_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Runafy/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Runafy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles 0
 .PHONY : CMakeFiles/app_autogen.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ app_autogen: CMakeFiles/app_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/app_autogen.dir/codegen: CMakeFiles/app_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app_autogen.dir/build.make CMakeFiles/app_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=17 "Finished codegen for target app_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=17 "Finished codegen for target app_autogen"
 .PHONY : CMakeFiles/app_autogen.dir/codegen
 
 # clean rule for target.
@@ -184,7 +184,7 @@ CMakeFiles/app_autogen.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/runa/GitHub/Runafy/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

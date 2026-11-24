@@ -1,4 +1,5 @@
-CMakeFiles/app.dir/main.cpp.o: /home/runa/GitHub/Runafy/main.cpp \
+CMakeFiles/app.dir/main.cpp.o: \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/main.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QApplication \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qapplication.h \
@@ -548,7 +549,7 @@ CMakeFiles/app.dir/main.cpp.o: /home/runa/GitHub/Runafy/main.cpp \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayout.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayoutitem.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qgridlayout.h \
- /home/runa/GitHub/Runafy/widgets/mainWindow.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/QLoggingCategory \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/qloggingcategory.h

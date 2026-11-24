@@ -1,7 +1,7 @@
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
- /home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qwidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qtwidgetsglobal.h \
@@ -538,7 +538,7 @@ CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QPushButton \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qpushbutton.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qabstractbutton.h \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLineEdit \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlineedit.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qframe.h \
@@ -552,7 +552,7 @@ CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayout.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayoutitem.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qgridlayout.h \
- /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLabel \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlabel.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtGui/qpicture.h \

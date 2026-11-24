@@ -1,6 +1,6 @@
-/home/runa/GitHub/Runafy/build/app_autogen/43SKVY5A7E/moc_downloadWidget.cpp: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.h \
-  /home/runa/GitHub/Runafy/build/app_autogen/moc_predefs.h \
-  /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h \
+/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/43SKVY5A7E/moc_downloadWidget.cpp: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.h \
+  /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/moc_predefs.h \
+  /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h \
   /nix/store/12sd69v2zqs0x4xys6af45hcck74mjhl-qtbase-6.12.0/include/QtCore/QJsonObject \
   /nix/store/12sd69v2zqs0x4xys6af45hcck74mjhl-qtbase-6.12.0/include/QtCore/q17memory.h \
   /nix/store/12sd69v2zqs0x4xys6af45hcck74mjhl-qtbase-6.12.0/include/QtCore/q20bit.h \

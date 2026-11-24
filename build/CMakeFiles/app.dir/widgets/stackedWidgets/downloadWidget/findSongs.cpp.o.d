@@ -1,5 +1,5 @@
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/string \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/bits/requires_hosted.h \
@@ -458,7 +458,7 @@ CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/cassert \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/q20iterator.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/qshareddata.h \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qwidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qtwidgetsglobal.h \
@@ -552,9 +552,9 @@ CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayout.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayoutitem.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qgridlayout.h \
- /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLabel \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlabel.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtGui/qpicture.h \
- /home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.h \
  /nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/include/c++/16.2.0/iostream

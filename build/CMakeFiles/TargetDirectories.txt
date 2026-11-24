@@ -1,5 +1,5 @@
-/home/runa/GitHub/Runafy/build/CMakeFiles/app.dir
-/home/runa/GitHub/Runafy/build/CMakeFiles/edit_cache.dir
-/home/runa/GitHub/Runafy/build/CMakeFiles/rebuild_cache.dir
-/home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen_timestamp_deps.dir
-/home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen.dir
+/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app.dir
+/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/edit_cache.dir
+/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/rebuild_cache.dir
+/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen_timestamp_deps.dir
+/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen.dir

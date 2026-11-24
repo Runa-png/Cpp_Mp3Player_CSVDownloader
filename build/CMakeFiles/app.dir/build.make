@@ -53,10 +53,10 @@ RM = /nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runa/GitHub/Runafy
+CMAKE_SOURCE_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runa/GitHub/Runafy/build
+CMAKE_BINARY_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -75,212 +75,212 @@ CMakeFiles/app.dir/codegen:
 CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o: app_autogen/mocs_compilation.cpp
 CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o -MF CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o -c /home/runa/GitHub/Runafy/build/app_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o -MF CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/mocs_compilation.cpp
 
 CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/build/app_autogen/mocs_compilation.cpp > CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/mocs_compilation.cpp > CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/build/app_autogen/mocs_compilation.cpp -o CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/mocs_compilation.cpp -o CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/app.dir/colors/colors.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/colors/colors.cpp.o: /home/runa/GitHub/Runafy/colors/colors.cpp
+CMakeFiles/app.dir/colors/colors.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.cpp
 CMakeFiles/app.dir/colors/colors.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/colors/colors.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/colors/colors.cpp.o -MF CMakeFiles/app.dir/colors/colors.cpp.o.d -o CMakeFiles/app.dir/colors/colors.cpp.o -c /home/runa/GitHub/Runafy/colors/colors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/colors/colors.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/colors/colors.cpp.o -MF CMakeFiles/app.dir/colors/colors.cpp.o.d -o CMakeFiles/app.dir/colors/colors.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.cpp
 
 CMakeFiles/app.dir/colors/colors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/colors/colors.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/colors/colors.cpp > CMakeFiles/app.dir/colors/colors.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.cpp > CMakeFiles/app.dir/colors/colors.cpp.i
 
 CMakeFiles/app.dir/colors/colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/colors/colors.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/colors/colors.cpp -o CMakeFiles/app.dir/colors/colors.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.cpp -o CMakeFiles/app.dir/colors/colors.cpp.s
 
 CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o: /home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.cpp
+CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.cpp
 CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o -MF CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o.d -o CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o -c /home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o -MF CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o.d -o CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.cpp
 
 CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.cpp > CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.cpp > CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.i
 
 CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.cpp -o CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.cpp -o CMakeFiles/app.dir/configurableWidgets/searchedSongs/searchedSongWidget.cpp.s
 
 CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o: /home/runa/GitHub/Runafy/cppFunctions/checkFileExists/checkFileExists.cpp
+CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/checkFileExists/checkFileExists.cpp
 CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o -MF CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o.d -o CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o -c /home/runa/GitHub/Runafy/cppFunctions/checkFileExists/checkFileExists.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o -MF CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o.d -o CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/checkFileExists/checkFileExists.cpp
 
 CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/cppFunctions/checkFileExists/checkFileExists.cpp > CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/checkFileExists/checkFileExists.cpp > CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.i
 
 CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/cppFunctions/checkFileExists/checkFileExists.cpp -o CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/checkFileExists/checkFileExists.cpp -o CMakeFiles/app.dir/cppFunctions/checkFileExists/checkFileExists.cpp.s
 
 CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o: /home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.cpp
+CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.cpp
 CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o -MF CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o.d -o CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o -c /home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o -MF CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o.d -o CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.cpp
 
 CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.cpp > CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.cpp > CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.i
 
 CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.cpp -o CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.cpp -o CMakeFiles/app.dir/cppFunctions/convertDictToJson/convertDictToJson.cpp.s
 
 CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/main.cpp.o: /home/runa/GitHub/Runafy/main.cpp
+CMakeFiles/app.dir/main.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/main.cpp
 CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /home/runa/GitHub/Runafy/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/main.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.o -MF CMakeFiles/app.dir/main.cpp.o.d -o CMakeFiles/app.dir/main.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/main.cpp
 
 CMakeFiles/app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/main.cpp > CMakeFiles/app.dir/main.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/main.cpp > CMakeFiles/app.dir/main.cpp.i
 
 CMakeFiles/app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/main.cpp -o CMakeFiles/app.dir/main.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/main.cpp -o CMakeFiles/app.dir/main.cpp.s
 
 CMakeFiles/app.dir/widgets/mainWindow.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/mainWindow.cpp.o: /home/runa/GitHub/Runafy/widgets/mainWindow.cpp
+CMakeFiles/app.dir/widgets/mainWindow.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.cpp
 CMakeFiles/app.dir/widgets/mainWindow.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/widgets/mainWindow.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/mainWindow.cpp.o -MF CMakeFiles/app.dir/widgets/mainWindow.cpp.o.d -o CMakeFiles/app.dir/widgets/mainWindow.cpp.o -c /home/runa/GitHub/Runafy/widgets/mainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/widgets/mainWindow.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/mainWindow.cpp.o -MF CMakeFiles/app.dir/widgets/mainWindow.cpp.o.d -o CMakeFiles/app.dir/widgets/mainWindow.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.cpp
 
 CMakeFiles/app.dir/widgets/mainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/mainWindow.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/mainWindow.cpp > CMakeFiles/app.dir/widgets/mainWindow.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.cpp > CMakeFiles/app.dir/widgets/mainWindow.cpp.i
 
 CMakeFiles/app.dir/widgets/mainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/mainWindow.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/mainWindow.cpp -o CMakeFiles/app.dir/widgets/mainWindow.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.cpp -o CMakeFiles/app.dir/widgets/mainWindow.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/addSong.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/csvSelected.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/csvSelected.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/csvSelected.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/csvSelected.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/csvSelected.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/csvSelected.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/csvSelected.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/csvSelected.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/csvSelected.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/findSongs.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchFound.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchFound.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchFound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchFound.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchFound.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchFound.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchFound.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchFound.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchFound.cpp.s
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o: /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchSongs.cpp
+CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchSongs.cpp
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o -c /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchSongs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o -MF CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o.d -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchSongs.cpp
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchSongs.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchSongs.cpp > CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.i
 
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchSongs.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchSongs.cpp -o CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/searchSongs.cpp.s
 
 CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o: /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.cpp
+CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o: /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.cpp
 CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o -MF CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o.d -o CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o -c /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o"
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o -MF CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o.d -o CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.o -c /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.cpp
 
 CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.i"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.cpp > CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.i
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.cpp > CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.i
 
 CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.s"
-	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.cpp -o CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.s
+	/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.cpp -o CMakeFiles/app.dir/windows/changeUrl/changeUrl.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
@@ -326,7 +326,7 @@ app: /nix/store/j6crvk2m147s1wp0gs26iyqm26srchxz-libglvnd-1.7.0/lib/libGLX.so
 app: /nix/store/j6crvk2m147s1wp0gs26iyqm26srchxz-libglvnd-1.7.0/lib/libOpenGL.so
 app: /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/lib/libQt6Core.so.6.12.0
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -338,6 +338,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/runa/GitHub/Runafy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runa/GitHub/Runafy /home/runa/GitHub/Runafy /home/runa/GitHub/Runafy/build /home/runa/GitHub/Runafy/build /home/runa/GitHub/Runafy/build/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)" app
+	cd /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app.dir/DependInfo.cmake "--color=$(COLOR)" app
 .PHONY : CMakeFiles/app.dir/depend
 

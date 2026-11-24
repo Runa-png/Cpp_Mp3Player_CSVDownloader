@@ -3,6 +3,8 @@
 #include <QLabel>
 #include <QVBoxLayout>
 
+#include <sqlite3.h>
+
 #include "widgets/mainWindow.h"
 #include <QLoggingCategory> // Stop those annoying warnings
 
@@ -19,4 +21,8 @@ int main(int argc, char *argv[]) {
   window.show();
 
   return app.exec();
+}
+
+void initialise() {
+  sqlite3* DB;
 }

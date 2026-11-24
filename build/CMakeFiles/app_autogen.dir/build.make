@@ -53,10 +53,10 @@ RM = /nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runa/GitHub/Runafy
+CMAKE_SOURCE_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runa/GitHub/Runafy/build
+CMAKE_BINARY_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build
 
 # Utility rule file for app_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/app_autogen: app_autogen/timestamp
 
 app_autogen/timestamp: /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/libexec/moc
 app_autogen/timestamp: CMakeFiles/app_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/runa/GitHub/Runafy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target app"
-	/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E cmake_autogen /home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen.dir/AutogenInfo.json ""
-	/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E touch /home/runa/GitHub/Runafy/build/app_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target app"
+	/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E cmake_autogen /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen.dir/AutogenInfo.json ""
+	/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E touch /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/timestamp
 
 CMakeFiles/app_autogen.dir/codegen:
 .PHONY : CMakeFiles/app_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/app_autogen.dir/clean:
 .PHONY : CMakeFiles/app_autogen.dir/clean
 
 CMakeFiles/app_autogen.dir/depend:
-	cd /home/runa/GitHub/Runafy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runa/GitHub/Runafy /home/runa/GitHub/Runafy /home/runa/GitHub/Runafy/build /home/runa/GitHub/Runafy/build /home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen.dir/DependInfo.cmake "--color=$(COLOR)" app_autogen
+	cd /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen.dir/DependInfo.cmake "--color=$(COLOR)" app_autogen
 .PHONY : CMakeFiles/app_autogen.dir/depend
 

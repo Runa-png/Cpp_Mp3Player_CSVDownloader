@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/runa/GitHub/Runafy/build/cmake_install.cmake"
+		"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

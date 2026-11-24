@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/runa/GitHub/Runafy/build/app_autogen",
-	"CMAKE_BINARY_DIR" : "/home/runa/GitHub/Runafy/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/runa/GitHub/Runafy/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/runa/GitHub/Runafy",
+	"BUILD_DIR" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen",
+	"CMAKE_BINARY_DIR" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader",
 	"CMAKE_EXECUTABLE" : "/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/runa/GitHub/Runafy/CMakeLists.txt",
+		"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/CMakeLists.txt",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeSystem.cmake.in",
-		"/home/runa/GitHub/Runafy/build/CMakeFiles/4.4.4/CMakeSystem.cmake",
+		"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/4.4.4/CMakeSystem.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/Platform/Linux-Initialize.cmake",
@@ -66,7 +66,7 @@
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/runa/GitHub/Runafy/build/CMakeFiles/4.4.4/CMakeCXXCompiler.cmake",
+		"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/4.4.4/CMakeCXXCompiler.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeGenericSystem.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake",
@@ -92,7 +92,7 @@
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/runa/GitHub/Runafy/build/CMakeFiles/4.4.4/CMakeCXXCompiler.cmake",
+		"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/4.4.4/CMakeCXXCompiler.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake",
@@ -551,94 +551,94 @@
 		"/nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
 		"/nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/runa/GitHub/Runafy",
+	"CMAKE_SOURCE_DIR" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/runa/GitHub/Runafy/build/app_autogen/deps",
+	"DEP_FILE" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "app_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/runa/GitHub/Runafy/colors/colors.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.h",
 			"Mu",
 			"53QUUSM6OY/moc_colors.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.h",
 			"Mu",
 			"QMW2IEWTAG/moc_searchedSongWidget.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/cppFunctions/checkFileExists/checkFileExists.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/checkFileExists/checkFileExists.h",
 			"Mu",
 			"LAYER62A6H/moc_checkFileExists.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.h",
 			"Mu",
 			"GRPVADQKVR/moc_convertDictToJson.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/mainWindow.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.h",
 			"Mu",
 			"IMAN36LHMA/moc_mainWindow.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.h",
 			"Mu",
 			"43SKVY5A7E/moc_downloadWidget.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.h",
 			"Mu",
 			"ZDTKFRZWGF/moc_addSong.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/csvSelected.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/csvSelected.h",
 			"Mu",
 			"ZDTKFRZWGF/moc_csvSelected.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.h",
 			"Mu",
 			"ZDTKFRZWGF/moc_downloadSongs.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.h",
 			"Mu",
 			"ZDTKFRZWGF/moc_findSongs.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchFound.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchFound.h",
 			"Mu",
 			"ZDTKFRZWGF/moc_searchFound.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchSongs.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchSongs.h",
 			"Mu",
 			"ZDTKFRZWGF/moc_searchSongs.cpp",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h",
 			"Mu",
 			"FTGL2TVEU4/moc_changeUrl.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/runa/GitHub/Runafy/build/app_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/runa/GitHub/Runafy/build/app_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -649,7 +649,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/runa/GitHub/Runafy",
+		"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader",
 		"/nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets",
 		"/nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore",
 		"/nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/mkspecs/linux-g++",
@@ -687,74 +687,82 @@
 		"-E",
 		"/nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/runa/GitHub/Runafy/build/app_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/runa/GitHub/Runafy/colors/colors.cpp", "Mu", null ],
 		[
-			"/home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/cppFunctions/checkFileExists/checkFileExists.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.cpp",
-			"Mu",
-			null
-		],
-		[ "/home/runa/GitHub/Runafy/main.cpp", "Mu", null ],
-		[ "/home/runa/GitHub/Runafy/widgets/mainWindow.cpp", "Mu", null ],
-		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/checkFileExists/checkFileExists.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/addSong.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/main.cpp", "Mu", null ],
+		[
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/csvSelected.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/addSong.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/findSongs.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/csvSelected.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchFound.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/searchSongs.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/findSongs.cpp",
 			"Mu",
 			null
 		],
 		[
-			"/home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.cpp",
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchFound.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/searchSongs.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.cpp",
 			"Mu",
 			null
 		]

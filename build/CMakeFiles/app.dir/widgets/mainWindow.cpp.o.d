@@ -1,5 +1,5 @@
 CMakeFiles/app.dir/widgets/mainWindow.cpp.o: \
- /home/runa/GitHub/Runafy/widgets/mainWindow.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qwidget.h \
@@ -530,9 +530,9 @@ CMakeFiles/app.dir/widgets/mainWindow.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QStackedWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qstackedwidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qframe.h \
- /home/runa/GitHub/Runafy/widgets/mainWindow.h \
- /home/runa/GitHub/Runafy/colors/colors.h \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/mainWindow.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/colors/colors.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLineEdit \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlineedit.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtGui/qtextcursor.h \
@@ -553,7 +553,7 @@ CMakeFiles/app.dir/widgets/mainWindow.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/quuid.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/qjsondocument.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/qjsonparseerror.h \
- /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLabel \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlabel.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtGui/qpicture.h \

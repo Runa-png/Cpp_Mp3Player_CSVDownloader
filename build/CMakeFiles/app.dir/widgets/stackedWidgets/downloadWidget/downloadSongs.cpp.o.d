@@ -1,8 +1,8 @@
 CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o: \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget/downloadSongs.h \
- /home/runa/GitHub/Runafy/widgets/stackedWidgets/downloadWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget/downloadSongs.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/widgets/stackedWidgets/downloadWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qwidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qtwidgetsglobal.h \
@@ -549,16 +549,16 @@ CMakeFiles/app.dir/widgets/stackedWidgets/downloadWidget/downloadSongs.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayout.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayoutitem.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qgridlayout.h \
- /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLabel \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlabel.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtGui/qpicture.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/qiodevice.h \
- /home/runa/GitHub/Runafy/configurableWidgets/searchedSongs/searchedSongWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/configurableWidgets/searchedSongs/searchedSongWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QPushButton \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qpushbutton.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qabstractbutton.h \
- /home/runa/GitHub/Runafy/cppFunctions/convertDictToJson/convertDictToJson.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/cppFunctions/convertDictToJson/convertDictToJson.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/QJsonArray \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/qjsonarray.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtCore/QJsonDocument \

@@ -1,8 +1,8 @@
 CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o: \
- /home/runa/GitHub/Runafy/build/app_autogen/mocs_compilation.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/mocs_compilation.cpp \
  /nix/store/2f69qaci676cq5kr8svry3gbf6i6iqzi-glibc-2.44-57-dev/include/stdc-predef.h \
- /home/runa/GitHub/Runafy/build/app_autogen/43SKVY5A7E/moc_downloadWidget.cpp \
- /home/runa/GitHub/Runafy/build/app_autogen/43SKVY5A7E/../../../widgets/stackedWidgets/downloadWidget.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/43SKVY5A7E/moc_downloadWidget.cpp \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/app_autogen/43SKVY5A7E/../../../widgets/stackedWidgets/downloadWidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QWidget \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qwidget.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qtwidgetsglobal.h \
@@ -549,7 +549,7 @@ CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o: \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayout.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlayoutitem.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qgridlayout.h \
- /home/runa/GitHub/Runafy/windows/changeUrl/changeUrl.h \
+ /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/windows/changeUrl/changeUrl.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/QLabel \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtWidgets/qlabel.h \
  /nix/store/n1y0py9jzhxq4v5sigf1ik8l8pkim167-qt6/include/QtGui/qpicture.h \

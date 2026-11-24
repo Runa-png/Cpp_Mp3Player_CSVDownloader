@@ -53,10 +53,10 @@ RM = /nix/store/9xdayymn5yh1c98hg12d13d3ir0sxd4x-cmake-4.4.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runa/GitHub/Runafy
+CMAKE_SOURCE_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runa/GitHub/Runafy/build
+CMAKE_BINARY_DIR = /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build
 
 # Utility rule file for app_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/app_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/app_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/app_autogen_timestamp_deps.dir/depend:
-	cd /home/runa/GitHub/Runafy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runa/GitHub/Runafy /home/runa/GitHub/Runafy /home/runa/GitHub/Runafy/build /home/runa/GitHub/Runafy/build /home/runa/GitHub/Runafy/build/CMakeFiles/app_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" app_autogen_timestamp_deps
+	cd /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build /home/runa/GitHub/Cpp_Mp3Player_CSVDownloader/build/CMakeFiles/app_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" app_autogen_timestamp_deps
 .PHONY : CMakeFiles/app_autogen_timestamp_deps.dir/depend
 

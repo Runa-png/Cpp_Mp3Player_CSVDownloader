@@ -17,7 +17,7 @@ class songDataDownload:
     self.connection = None
     self.cursor = None
 
-    self.outputLocation = "appData/music"
+    self.outputLocation = "appData/cache"
     self.dbLocation = "appData/database.db"
 
     self.cookieOptions = ["firefox", "chrome", "edge", "brave", "safari"]
@@ -42,6 +42,7 @@ class songDataDownload:
       {"code": "Playlists that require authentication may not extract correctly without a successful webpage download", "break": True, "response": "404 Location not found or video is private"},
       {"code": "Incomplete YouTube ID", "break": True, "response": "004 Incomplete URL ID"},
       {"code": "YouTube said: This playlist type is unviewable", "break": True, "response": "Remove the playlist URL"},
+      {"code": "ffprobe and ffmpeg not found", "break": True, "response": "Please install FFMPEG"}
     ]
     
     # Put Event loop here
@@ -56,6 +57,9 @@ class songDataDownload:
   def connectToDB(self):
     self.connection = connect(self.dbLocation)
     self.cursor = connection.cursor()
+  
+  def commitDB(self):
+    self.connection.commit()
   
   def disconnectFromDB(self):
     self.connection.close()
@@ -74,6 +78,10 @@ class songDataDownload:
       if response["break"] == True:
         responseData = {"successful": False, "code": response['response'], "index": response["index"]}
         print(json.dumps(responseData), flush=1)
+      
+      else:
+        print("Successful Download")
+        self.writeSongToDB(fileName=fileName, songData=song)
   
   def downloadSong(self, fileName, url, index):
     self.options["cookiesfrombrowser"] = (self.cookieOptions[self.cookieOptionsIndex],)
@@ -87,7 +95,7 @@ class songDataDownload:
       while True: # Break if the error code requires it
         try:
           ydl.download(url)
-          return {"code": "", "break": False, "response": "Unrecognised error", "index": index}
+          return {"code": "", "break": False, "response": "Success", "index": index}
         except Exception as e:
           errorCodeData = self.findErrorCode(e)
           errorCodeData["index"] = index
@@ -120,6 +128,9 @@ class songDataDownload:
     
     return {"code": "Unrecognised error", "break": False, "response": "Unrecognised error"}
 
+  def writeSongToDB(self, fileName, songData):
+    print("Writing Song to db")
+    print(fileName)
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:
