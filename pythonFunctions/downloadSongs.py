@@ -1,8 +1,10 @@
 import json
 import sys
 from yt_dlp import YoutubeDL
-from sqlite3 import connect
+from sqlite3 import connect, IntegrityError
 from urllib.parse import urlparse, parse_qs
+from shutil import move
+from pathlib import Path
 
 def main(songData: list):
   songDataClass = songDataDownload(songData)
@@ -56,7 +58,7 @@ class songDataDownload:
   
   def connectToDB(self):
     self.connection = connect(self.dbLocation)
-    self.cursor = connection.cursor()
+    self.cursor = self.connection.cursor()
   
   def commitDB(self):
     self.connection.commit()
@@ -67,21 +69,39 @@ class songDataDownload:
     self.cursor = None
 
   def iterateOverSongsForDownload(self):
+    self.connectToDB()
+    
     for song in self.allSongData:      
       songName = song["Song"].replace(" ", "^") # A placeholder for spaces in song names
       albumName = song["Album"].replace(" ", "^") # A placeholder for spaces in album names
+      fileName = songName + "¬" + albumName
 
-      fileName = songName + "¬" + albumName + ".mp3"
+      # If the path already exists, do not allow the download
+      if self.checkFileExists(f"appData/music/{fileName}.mp3"):
+        responseData = {"successful": False, "code": "102 Song already exists", "index": song["#"]}
+        print(json.dumps(responseData), flush=1)
+        continue
       
+      # Download audio, store it in appData/cache
       response = self.downloadSong(fileName=fileName, url=song["url"], index=song["#"])
       
+      # Failed to make the download
       if response["break"] == True:
         responseData = {"successful": False, "code": response['response'], "index": response["index"]}
         print(json.dumps(responseData), flush=1)
+        continue
       
       else:
         print("Successful Download")
-        self.writeSongToDB(fileName=fileName, songData=song)
+        self.writeSongToDB(fileName=fileName, songData=song) # Write song data to the DB
+        
+        # Something went wrong with shutil
+        successfulTransfer = self.transferSong(fileName=fileName)
+        if not successfulTransfer["success"]:
+          responseData = {"successful": False, "code": "101 File was not able to be moved", "index": song["#"]}
+          print(json.dumps(responseData), flush=1)
+          continue
+        
   
   def downloadSong(self, fileName, url, index):
     self.options["cookiesfrombrowser"] = (self.cookieOptions[self.cookieOptionsIndex],)
@@ -132,6 +152,24 @@ class songDataDownload:
     print("Writing Song to db")
     print(fileName)
 
+    try:
+      self.cursor.execute("INSERT INTO songs (songName, artistName, albumName, fileLocation) VALUES (?,?,?,?)", (songData["Song"], songData["Artist"], songData["Album"], fileName))
+    except IntegrityError:
+      return {"success": False, "reason": "Unique constrain failed"}
+
+  def transferSong(self, fileName):
+    try:
+      move(f"appData/cache/{fileName}.mp3", f"appData/music/{fileName}.mp3")
+      return {"success": True}
+    except Exception as e:
+      return {"success": False, "reason": e, "query": f"appData/cache/{fileName}.mp3 appData/music/{fileName}.mp3"}
+
+  def checkFileExists(self, filePath):
+    path = Path(filePath)
+    if path.exists():
+      return True
+    else:
+      return False
 if __name__ == "__main__":
   if len(sys.argv) > 1:
     songData = json.loads(sys.argv[1])

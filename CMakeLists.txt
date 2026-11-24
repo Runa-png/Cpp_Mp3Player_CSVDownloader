@@ -10,6 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_AUTOMOC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(SQLite3 REQUIRED)
 
 # Collect source files, excluding the build directory
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
@@ -42,6 +43,7 @@ target_include_directories(app PRIVATE
 
 target_link_libraries(app PRIVATE
   Qt6::Widgets
+  SQLite::SQLite3
 )
 
 target_compile_options(app PRIVATE

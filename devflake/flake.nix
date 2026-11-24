@@ -31,6 +31,9 @@
           ninja
           pkg-config
 
+          # SQL
+          sqlite
+
           # Qt
           qt
           qtcreator
