@@ -1,6 +1,6 @@
 
 {
-  description = "Qt6 C++ MP3 Player";
+  description = "Qt6 C++ MP3 Player and CSV Downloader";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -16,7 +16,9 @@
     in {
       packages = forAllSystems (system:
         let
-          pkgs = import nixpkgs { inherit system; };
+          pkgs = import nixpkgs {
+            inherit system;
+          };
 
           qt = pkgs.qt6.env "qt6" [
             pkgs.qt6.qtbase
@@ -42,7 +44,7 @@
               cmake
               ninja
               pkg-config
-              qt.wrapQtAppsHook
+              qt6.wrapQtAppsHook
             ];
 
             buildInputs = with pkgs; [
@@ -57,16 +59,29 @@
 
             cmakeBuildType = "Release";
 
+            configurePhase = ''
+              runHook preConfigure
+
+              cmake -S . -B build -G Ninja \
+                -DCMAKE_BUILD_TYPE=Release
+
+              runHook postConfigure
+            '';
+
+            buildPhase = ''
+              runHook preBuild
+              cmake --build build
+              runHook postBuild
+            '';
+
             installPhase = ''
               runHook preInstall
 
               mkdir -p $out/bin
-              cp build/app $out/bin/app
+              install -Dm755 build/app $out/bin/app
 
               runHook postInstall
             '';
-
-            dontWrapQtApps = false;
           };
 
         in {
@@ -80,6 +95,53 @@
           program = "${self.packages.${system}.default}/bin/app";
         };
       });
+
+      devShells = forAllSystems (system:
+        let
+          pkgs = import nixpkgs { inherit system; };
+
+          qt = pkgs.qt6.env "qt6" [
+            pkgs.qt6.qtbase
+            pkgs.qt6.qtdeclarative
+            pkgs.qt6.qttools
+            pkgs.qt6.qtsvg
+            pkgs.qt6.qtwayland
+          ];
+
+          pythonEnv = pkgs.python3.withPackages (ps: with ps; [
+            yt-dlp
+            yt-dlp-ejs
+            fuzzywuzzy
+          ]);
+
+        in {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              gcc
+              gdb
+              cmake
+              ninja
+              pkg-config
+
+              sqlite
+
+              qt
+              qtcreator
+
+              pythonEnv
+
+              deno
+              ffmpeg
+
+              libGL
+              libglvnd
+            ];
+
+            shellHook = ''
+              echo "Entering Qt6 development environment"
+            '';
+          };
+        }
+      );
     };
 }
-
