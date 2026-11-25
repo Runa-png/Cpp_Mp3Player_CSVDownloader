@@ -35,22 +35,26 @@ int main(int argc, char *argv[]) {
 bool initialise() {
   sqlite3* db;
 
+  // appData folder
   if (!std::filesystem::exists("appData")) {
     std::cout << "Creating folder appData" << std::endl;
     std::filesystem::create_directory("appData");
   }
 
+  // music folder
   if (!std::filesystem::exists("appData/music")) {
     std::cout << "Creating folder music" << std::endl;
     std::filesystem::create_directory("appData/music");
   }
 
+  // Open the database
   if (sqlite3_open("appData/database.db", &db) != SQLITE_OK) {
     qWarning() << "Database error:" << sqlite3_errmsg(db);
     sqlite3_close(db);
     return false;
   }
 
+  // songs table
   const char* query = "CREATE TABLE IF NOT EXISTS songs (id INTEGER PRIMARY KEY AUTOINCREMENT, songName TEXT, artistName TEXT, albumName TEXT, fileLocation TEXT UNIQUE)";
   sqlite3_exec(db, query, nullptr, nullptr, nullptr);
 

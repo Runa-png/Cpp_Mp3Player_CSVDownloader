@@ -62,6 +62,7 @@ void downloadWidget::downloadSongs() {
     process,
     [process, this]() {
       emit SEARCHFINISHED();
+      std::cout << "Download Finished" << std::endl;
       process->deleteLater();
     }
   );
@@ -72,6 +73,6 @@ void downloadWidget::downloadSongs() {
 }
 
 void downloadWidget::downloadResponseRecieved(QJsonObject data) {  
-  std::cout << "Download recieved: " << data["response"].toBool() << std::endl;
+  qDebug() << data;
   return;
 }

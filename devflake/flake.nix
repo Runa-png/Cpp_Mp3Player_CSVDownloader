@@ -1,3 +1,4 @@
+
 {
   description = "Qt6 C++ development environment";
 
@@ -18,6 +19,7 @@
 
       pythonEnv = pkgs.python3.withPackages (ps: with ps; [
         yt-dlp
+        yt-dlp-ejs
         fuzzywuzzy
       ]);
 
@@ -38,10 +40,16 @@
           qt
           qtcreator
 
-          # Python 
+          # Python
           pythonEnv
 
-          # Open GL
+          # YouTube JavaScript challenge solving
+          deno
+
+          # Audio conversion
+          ffmpeg
+
+          # OpenGL
           libGL
           libglvnd
         ];

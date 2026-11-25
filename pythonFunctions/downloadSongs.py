@@ -1,7 +1,7 @@
 import json
 import sys
 from yt_dlp import YoutubeDL
-from sqlite3 import connect, IntegrityError
+from sqlite3 import connect, IntegrityError, Row
 from urllib.parse import urlparse, parse_qs
 from shutil import move
 from pathlib import Path
@@ -19,8 +19,10 @@ class songDataDownload:
     self.connection = None
     self.cursor = None
 
-    self.outputLocation = "appData/cache"
-    self.dbLocation = "appData/database.db"
+    
+    self.PROJECT_ROOT = Path(__file__).resolve().parent.parent
+    self.dbLocation = f"{self.PROJECT_ROOT}/appData/database.db"
+    self.outputLocation = f"{self.PROJECT_ROOT}/appData/cache"
 
     self.cookieOptions = ["firefox", "chrome", "edge", "brave", "safari"]
     self.cookieOptionsIndex = 0
@@ -28,6 +30,10 @@ class songDataDownload:
     self.options = {
       "format": "bestaudio/best",
       "quiet": True,
+      "no_warnings": True,
+      "noprogress": True,
+      "ignoreerrors": False,
+      "remote_components": ["ejs:npm"],
       "postprocessors": [
         {
           "key": "FFmpegExtractAudio",
@@ -58,6 +64,7 @@ class songDataDownload:
   
   def connectToDB(self):
     self.connection = connect(self.dbLocation)
+    self.connection.row_factory = Row
     self.cursor = self.connection.cursor()
   
   def commitDB(self):
@@ -77,7 +84,7 @@ class songDataDownload:
       fileName = songName + "¬" + albumName
 
       # If the path already exists, do not allow the download
-      if self.checkFileExists(f"appData/music/{fileName}.mp3"):
+      if self.checkFileExists(f"{self.PROJECT_ROOT}/appData/music/{fileName}.mp3"):
         responseData = {"successful": False, "code": "102 Song already exists", "index": song["#"]}
         print(json.dumps(responseData), flush=1)
         continue
@@ -91,18 +98,26 @@ class songDataDownload:
         print(json.dumps(responseData), flush=1)
         continue
       
-      else:
-        print("Successful Download")
-        self.writeSongToDB(fileName=fileName, songData=song) # Write song data to the DB
+      else:                
+        # Something happened when we wrote the song to the database
+        successWrite = self.writeSongToDB(fileName=fileName, songData=song) # Write song data to the DB
+        if not successWrite["success"]:
+          responseData = {"successful": False, "code": "101 UNIQUE constraint failed", "index": song["#"]}
+          print(json.dumps(responseData), flush=1)
+          continue
         
         # Something went wrong with shutil
         successfulTransfer = self.transferSong(fileName=fileName)
         if not successfulTransfer["success"]:
-          responseData = {"successful": False, "code": "101 File was not able to be moved", "index": song["#"]}
+          responseData = {"successful": False, "code": "103 File was not able to be moved", "index": song["#"]}
           print(json.dumps(responseData), flush=1)
           continue
         
-  
+        responseData = {"successful": True, "code": "", "index": song["#"]}
+        print(json.dumps(responseData), flush=1)
+        self.commitDB()
+    self.disconnectFromDB()
+        
   def downloadSong(self, fileName, url, index):
     self.options["cookiesfrombrowser"] = (self.cookieOptions[self.cookieOptionsIndex],)
     self.options["outtmpl"] = f'{self.outputLocation}/{fileName}'
@@ -119,8 +134,6 @@ class songDataDownload:
         except Exception as e:
           errorCodeData = self.findErrorCode(e)
           errorCodeData["index"] = index
-
-          print("Exception", e)
           
           if errorCodeData["break"] == True:
             break
@@ -149,20 +162,27 @@ class songDataDownload:
     return {"code": "Unrecognised error", "break": False, "response": "Unrecognised error"}
 
   def writeSongToDB(self, fileName, songData):
-    print("Writing Song to db")
-    print(fileName)
-
-    try:
-      self.cursor.execute("INSERT INTO songs (songName, artistName, albumName, fileLocation) VALUES (?,?,?,?)", (songData["Song"], songData["Artist"], songData["Album"], fileName))
-    except IntegrityError:
-      return {"success": False, "reason": "Unique constrain failed"}
+    retried = False
+    while True:
+      try:
+        self.cursor.execute("INSERT INTO songs (songName, artistName, albumName, fileLocation) VALUES (?,?,?,?)", (songData["Song"], songData["Artist"], songData["Album"], fileName))
+        return {"success": True, "reason": ""}
+      except IntegrityError:
+        fixComplete = self.fixIntegrityError(fileName)
+        
+        if fixComplete["success"] == True and not retried:
+          retried = True # We'll retry adding to the database
+        elif retried:
+          return {"success": False, "reason": "Maximum amount of retries to insert into database"}
+        else:
+          return {"success": False, "reason": "We were not able to insert into database, even after attempted fix"}
 
   def transferSong(self, fileName):
     try:
-      move(f"appData/cache/{fileName}.mp3", f"appData/music/{fileName}.mp3")
+      move(f"{self.PROJECT_ROOT}/appData/cache/{fileName}.mp3", f"{self.PROJECT_ROOT}/appData/music/{fileName}.mp3")
       return {"success": True}
     except Exception as e:
-      return {"success": False, "reason": e, "query": f"appData/cache/{fileName}.mp3 appData/music/{fileName}.mp3"}
+      return {"success": False, "reason": e, "query": f"{self.PROJECT_ROOT}/appData/cache/{fileName}.mp3 appData/music/{fileName}.mp3"}
 
   def checkFileExists(self, filePath):
     path = Path(filePath)
@@ -170,11 +190,25 @@ class songDataDownload:
       return True
     else:
       return False
+
+  def fixIntegrityError(self, filePath):
+    songData = self.cursor.execute("SELECT * FROM songs WHERE fileLocation = ?", (filePath,)).fetchall()
+    
+    if songData:
+      if self.checkFileExists(filePath):
+        return {"success": False, "reason": "The mp3 exists and is in the database, this should not be possible"}
+      else:
+        self.connection.execute("DELETE FROM songs WHERE fileLocation = ?", (filePath,)) # The mp3 is gone, rid the database of this ghost
+        return {"success": True, "reason": ""}
+
+    else:
+      return {"success": False, "reason": "There is no database entry, how did a data collision happen?"}
+
 if __name__ == "__main__":
   if len(sys.argv) > 1:
     songData = json.loads(sys.argv[1])
     main(songData)
   else:
-    data = {"response": False, "reason": "FATAL: data not present in the request"}
+    data = {"successful": False, "code": "404 data not present in the request"}
     print(json.dumps(data), flush=1)
     
