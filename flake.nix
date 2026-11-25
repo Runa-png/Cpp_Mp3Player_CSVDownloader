@@ -1,4 +1,5 @@
 
+
 {
   description = "Qt6 C++ MP3 Player and CSV Downloader";
 
@@ -20,14 +21,6 @@
             inherit system;
           };
 
-          qt = pkgs.qt6.env "qt6" [
-            pkgs.qt6.qtbase
-            pkgs.qt6.qtdeclarative
-            pkgs.qt6.qttools
-            pkgs.qt6.qtsvg
-            pkgs.qt6.qtwayland
-          ];
-
           pythonEnv = pkgs.python3.withPackages (ps: with ps; [
             yt-dlp
             yt-dlp-ejs
@@ -45,14 +38,28 @@
               ninja
               pkg-config
               qt6.wrapQtAppsHook
+              makeWrapper
             ];
 
             buildInputs = with pkgs; [
-              qt
+              # Qt6
+              qt6.qtbase
+              qt6.qtdeclarative
+              qt6.qttools
+              qt6.qtsvg
+              qt6.qtwayland
+
+              # Python
               pythonEnv
+
+              # SQL
               sqlite
+
+              # Media and JavaScript
               ffmpeg
               deno
+
+              # Graphics
               libGL
               libglvnd
             ];
@@ -82,6 +89,15 @@
 
               runHook postInstall
             '';
+
+            postFixup = ''
+              wrapProgram $out/bin/app \
+                --prefix PATH : ${pkgs.lib.makeBinPath [
+                  pythonEnv
+                  pkgs.ffmpeg
+                  pkgs.deno
+                ]}
+            '';
           };
 
         in {
@@ -98,15 +114,9 @@
 
       devShells = forAllSystems (system:
         let
-          pkgs = import nixpkgs { inherit system; };
-
-          qt = pkgs.qt6.env "qt6" [
-            pkgs.qt6.qtbase
-            pkgs.qt6.qtdeclarative
-            pkgs.qt6.qttools
-            pkgs.qt6.qtsvg
-            pkgs.qt6.qtwayland
-          ];
+          pkgs = import nixpkgs {
+            inherit system;
+          };
 
           pythonEnv = pkgs.python3.withPackages (ps: with ps; [
             yt-dlp
@@ -117,22 +127,34 @@
         in {
           default = pkgs.mkShell {
             packages = with pkgs; [
+              # C++ toolchain
               gcc
               gdb
               cmake
               ninja
               pkg-config
 
+              # SQL
               sqlite
 
-              qt
+              # Qt
+              qt6.qtbase
+              qt6.qtdeclarative
+              qt6.qttools
+              qt6.qtsvg
+              qt6.qtwayland
               qtcreator
 
+              # Python
               pythonEnv
 
+              # YouTube JavaScript challenge solving
               deno
+
+              # Audio conversion
               ffmpeg
 
+              # OpenGL
               libGL
               libglvnd
             ];
@@ -143,5 +165,8 @@
           };
         }
       );
+    };
+}
+
     };
 }
