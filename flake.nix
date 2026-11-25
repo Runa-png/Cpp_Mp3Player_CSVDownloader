@@ -1,6 +1,6 @@
 
 {
-  description = "Runafy - Qt6 development environment";
+  description = "Qt6 C++ MP3 Player";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -32,58 +32,54 @@
             fuzzywuzzy
           ]);
 
-          runtime = pkgs.buildEnv {
-            name = "runafy-environment";
-            paths = with pkgs; [
-              # C++ toolchain
-              gcc
-              gdb
+          app = pkgs.stdenv.mkDerivation {
+            pname = "cpp-mp3player-csvdownloader";
+            version = "1.0.0";
+
+            src = self;
+
+            nativeBuildInputs = with pkgs; [
               cmake
               ninja
               pkg-config
+              qt.wrapQtAppsHook
+            ];
 
-              # SQL
-              sqlite
-
-              # Qt
+            buildInputs = with pkgs; [
               qt
-              qtcreator
-
-              # Python
               pythonEnv
-
-              # JavaScript challenge solving
-              deno
-
-              # Audio conversion
+              sqlite
               ffmpeg
-
-              # OpenGL
+              deno
               libGL
               libglvnd
             ];
+
+            cmakeBuildType = "Release";
+
+            installPhase = ''
+              runHook preInstall
+
+              mkdir -p $out/bin
+              cp build/app $out/bin/app
+
+              runHook postInstall
+            '';
+
+            dontWrapQtApps = false;
           };
-
-          launcher = pkgs.writeShellScriptBin "runafy-dev" ''
-            export PATH="${runtime}/bin:$PATH"
-
-            echo "Entering Runafy development environment"
-            exec bash -i
-          '';
 
         in {
-          default = pkgs.symlinkJoin {
-            name = "runafy";
-            paths = [ launcher runtime ];
-          };
+          default = app;
         }
       );
 
       apps = forAllSystems (system: {
         default = {
           type = "app";
-          program = "${self.packages.${system}.default}/bin/runafy-dev";
+          program = "${self.packages.${system}.default}/bin/app";
         };
       });
     };
 }
+
