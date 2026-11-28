@@ -11,7 +11,7 @@
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
 #include "cppFunctions/convertDictToJson/convertDictToJson.h"
 #include "windows/changeUrl/changeUrl.h"
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 
 searchedSong::searchedSong(int height, QJsonObject songData, downloadWidget* parent) : QWidget() {
   songDataJson = {{"data", songData}};

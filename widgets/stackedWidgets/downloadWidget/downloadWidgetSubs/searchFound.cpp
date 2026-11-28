@@ -1,9 +1,8 @@
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include <iostream>
 #include <QString>
 
 #include "colors/colors.h"
-#include "widgets/stackedWidgets/downloadWidget.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
 
 void downloadWidget::searchFound(QJsonObject songData) {

@@ -2,7 +2,7 @@
 #include <QObject>
 #include <QProcess>
 
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include "cppFunctions/convertDictToJson/convertDictToJson.h"
 #include "iostream"
 

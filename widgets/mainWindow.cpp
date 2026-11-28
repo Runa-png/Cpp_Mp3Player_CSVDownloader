@@ -12,16 +12,13 @@
 
 #include "colors/colors.h"
 
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
+#include "widgets/stackedWidgets/musicManagementWidget/musicManagement.h"
 
 mainWindow::mainWindow() : QWidget() {
   QVBoxLayout* topLayout = new QVBoxLayout(this);
   topLayout->setContentsMargins(0,0,0,0);
   topLayout->setSpacing(0);
-
-  // Top section
-  topWidget* topWindowWidget = new topWidget();
-  topLayout->addWidget(topWindowWidget,3);
 
   // Middle Section
   QWidget* middleWidget = new QWidget();
@@ -30,16 +27,21 @@ mainWindow::mainWindow() : QWidget() {
   middleLayout->setContentsMargins(0,0,0,0);
   middleLeftWidget* middleLeftWindowWidget = new middleLeftWidget();
   middleLayout->addWidget(middleLeftWindowWidget);
-  middleRightWidget* middleRightWindowWidget = new middleRightWidget();
+  middleRightWindowWidget = new middleRightWidget();
   middleLayout->addWidget(middleRightWindowWidget);
-  topLayout->addWidget(middleWidget,85);
-
+  
   // Bottom Section
   bottomWidget* bottomWindowWidget = new bottomWidget();
+  
+  // Top section (It relies on the middle section)
+  topWidget* topWindowWidget = new topWidget(middleRightWindowWidget);
+  
+  topLayout->addWidget(topWindowWidget,3);
+  topLayout->addWidget(middleWidget,85);
   topLayout->addWidget(bottomWindowWidget, 12);
 }
 
-topWidget::topWidget() : QWidget() {
+topWidget::topWidget(middleRightWidget* middleRightWidgetPointer) : QWidget() {
   QVBoxLayout* topLayout = new QVBoxLayout(this);
   topLayout->setContentsMargins(0,0,0,0);
 
@@ -59,7 +61,7 @@ topWidget::topWidget() : QWidget() {
 
   // Music Options
   QToolButton* musicToolButton = new QToolButton();
-  musicToolButton->setStyleSheet(QString::fromStdString(std::format(R"(font-size:17px; font-weight: 550;)")));
+  musicToolButton->setStyleSheet(QString::fromStdString(std::format(R"(font-size:17px; font-weight: 500;)")));
   musicToolButton->setText("Music");
   musicToolButton->setPopupMode(QToolButton::InstantPopup);
   
@@ -68,8 +70,25 @@ topWidget::topWidget() : QWidget() {
   QAction* downloadMusicSelected = musicMenu->addAction("Download Music");
   QAction* manageMusicSelected = musicMenu->addAction("Manage Music");
 
+  connect(downloadMusicSelected, &QAction::triggered, this, [this, middleRightWidgetPointer]() {middleRightWidgetPointer->stackedWidget->setCurrentIndex(0);});
+  connect(manageMusicSelected, &QAction::triggered, this, [this, middleRightWidgetPointer]() {middleRightWidgetPointer->stackedWidget->setCurrentIndex(1);});
+
   musicToolButton->setMenu(musicMenu);
+
+  // Player Options
+  QToolButton* playerToolButton = new QToolButton();
+  playerToolButton->setStyleSheet(QString::fromStdString(std::format(R"(font-size:17px; font-weight: 500;)")));
+  playerToolButton->setText("Player");
+  playerToolButton->setPopupMode(QToolButton::InstantPopup);
+  
+  QMenu* playerMenu = new QMenu(playerToolButton);
+  playerMenu->setStyleSheet(QString::fromStdString(std::format(R"(QMenu {{background-color:{};}} QMenu::item {{color:{};}} QMenu::item:selected {{color: {}}})", colors::color5, colors::text1, colors::color1)));
+  QAction* clearPlaylist = playerMenu->addAction("Clear");
+
+  playerToolButton->setMenu(playerMenu);
+  
   toolbar->addWidget(musicToolButton);
+  toolbar->addWidget(playerToolButton);
 
   mainLayout->addWidget(toolbar);
   topLayout->addWidget(mainWidget);
@@ -106,13 +125,17 @@ middleRightWidget::middleRightWidget() : QWidget() {
   mainLayout->setContentsMargins(0,0,0,0);
 
   // Stacked Widget
-  QStackedWidget* stackedWidget = new QStackedWidget();
+  stackedWidget = new QStackedWidget();
   mainLayout->addWidget(stackedWidget, 1);
 
   // Add widgets to the stacked widget
   downloadWidget* downloadStackedWidget = new downloadWidget();
-  stackedWidget->addWidget(downloadStackedWidget);
-  stackedWidget->setCurrentIndex(0);
+  musicManagement* musicManagementStackedWidget = new musicManagement();
+  
+  stackedWidget->addWidget(downloadStackedWidget); // Index 0
+  stackedWidget->addWidget(musicManagementStackedWidget); // Index 1
+  
+  stackedWidget->setCurrentIndex(1);
 
   topLayout->addWidget(mainWidget); 
 }

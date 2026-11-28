@@ -1,6 +1,6 @@
-#include "widgets/stackedWidgets/downloadWidget/downloadSongs.h"
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidgetSubs/downloadSongs.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include "cppFunctions/convertDictToJson/convertDictToJson.h"
 #include "colors/colors.h"
 

@@ -1,7 +1,7 @@
 #include <QWidget>
 #include <string>
 
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include "colors/colors.h"
 #include "cppFunctions/checkFileExists/checkFileExists.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"

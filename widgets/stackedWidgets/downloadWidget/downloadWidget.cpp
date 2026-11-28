@@ -12,10 +12,10 @@
 
 #include <iostream>
 
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include "colors/colors.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
-#include "widgets/stackedWidgets/downloadWidget/downloadSongs.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidgetSubs/downloadSongs.h"
 #include "windows/changeUrl/changeUrl.h"
 
 downloadWidget::downloadWidget() : QWidget() {

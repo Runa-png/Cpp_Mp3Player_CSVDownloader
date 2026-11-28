@@ -1,13 +1,18 @@
 #include <QWidget>
+#include <QStackedWidget>
+
+// Forward declarations
+class middleRightWidget;
 
 class mainWindow : public QWidget {
   public:
-    mainWindow();
+  middleRightWidget* middleRightWindowWidget;  
+  mainWindow();
 };
 
 class topWidget : public QWidget {
   public:
-    topWidget();
+    topWidget(middleRightWidget* middleRightWidgetPointer);
 };
 
 class middleLeftWidget : public QWidget {
@@ -18,6 +23,7 @@ class middleLeftWidget : public QWidget {
 class middleRightWidget : public QWidget {
   public:
     middleRightWidget();
+    QStackedWidget* stackedWidget;
 };
 
 class bottomWidget : public QWidget {

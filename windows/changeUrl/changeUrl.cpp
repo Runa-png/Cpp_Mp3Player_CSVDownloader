@@ -8,7 +8,7 @@
 #include <iostream>
 
 #include "windows/changeUrl/changeUrl.h"
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
 #include "colors/colors.h"
 

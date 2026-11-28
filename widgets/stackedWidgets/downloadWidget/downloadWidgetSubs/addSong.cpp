@@ -1,5 +1,5 @@
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 
 #include <iostream>
 

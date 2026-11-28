@@ -1,4 +1,4 @@
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include <QProcess>
 #include <QJsonObject>
 #include <QJsonDocument>
@@ -7,7 +7,7 @@
 #include <iostream>
 
 #include "cppFunctions/convertDictToJson/convertDictToJson.h"
-#include "widgets/stackedWidgets/downloadWidget.h"
+#include "widgets/stackedWidgets/downloadWidget/downloadWidget.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
 
 void downloadWidget::searchSongs() {
