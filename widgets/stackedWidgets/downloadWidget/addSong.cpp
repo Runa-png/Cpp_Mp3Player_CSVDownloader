@@ -4,7 +4,7 @@
 #include <iostream>
 
 void downloadWidget::addSong(QJsonObject songData) {
-  int height = 100;
+  int height = 150;
 
   searchedSong* searchedSongWidget = new searchedSong(height, songData, this);
   songScrollLayout->addWidget(searchedSongWidget);

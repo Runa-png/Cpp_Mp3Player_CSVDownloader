@@ -2,6 +2,7 @@
 #include "widgets/stackedWidgets/downloadWidget.h"
 #include "configurableWidgets/searchedSongs/searchedSongWidget.h"
 #include "cppFunctions/convertDictToJson/convertDictToJson.h"
+#include "colors/colors.h"
 
 #include <string>
 #include <QJsonObject>
@@ -74,5 +75,41 @@ void downloadWidget::downloadSongs() {
 
 void downloadWidget::downloadResponseRecieved(QJsonObject data) {  
   qDebug() << data;
+  qDebug() << data["index"];
+  
+  if (!data["successful"].toBool()) { // Failed
+    presentWidgets[data["index"].toString().toInt()-1]->topWidget->setStyleSheet(QString::fromStdString(std::format("background-color: {}; border-radius:15px", colors::failSong))); // Color the widget yellow, to show it was searched
+    presentWidgets[data["index"].toString().toInt()-1]->updateUrlButton->show(); // Hide the edit URL Button
+    presentWidgets[data["index"].toString().toInt()-1]->updateUrlButton->setStyleSheet(QString::fromStdString(std::format(R"(color: {}; font-size: 15px; font-weight: 700; background-color: {};)", colors::failSongText, colors::failSongButton)));
+    presentWidgets[data["index"].toString().toInt()-1]->statusLabel->show();
+    presentWidgets[data["index"].toString().toInt()-1]->statusLabel->setText(data["code"].toString());
+
+    presentWidgets[data["index"].toString().toInt()-1]->statusLabel->setStyleSheet(QString::fromStdString(std::format(R"(
+      color: {};
+      font-size: 15px;
+      text-decoration: underline;
+      font-weight: 700;
+    )", colors::failSongText
+    )));
+  } else { // Succeeded
+    if (data.contains("code")) { // Succeeded but there was a code alongside
+      presentWidgets[data["index"].toString().toInt()-1]->statusLabel->show();
+      presentWidgets[data["index"].toString().toInt()-1]->statusLabel->setText(data["code"].toString());
+
+      presentWidgets[data["index"].toString().toInt()-1]->statusLabel->setStyleSheet(QString::fromStdString(std::format(R"(
+        color: {};
+        font-size: 15px;
+        text-decoration: underline;
+        font-weight: 700;
+      )", colors::successSongText
+      )));
+    } else { // Prevent the status label from showing up from past downloads
+      presentWidgets[data["index"].toString().toInt()-1]->statusLabel->hide();
+    }
+
+    presentWidgets[data["index"].toString().toInt()-1]->topWidget->setStyleSheet(QString::fromStdString(std::format("background-color: {}; border-radius:15px", colors::successSong))); // Color the widget yellow, to show it was searched
+    presentWidgets[data["index"].toString().toInt()-1]->updateUrlButton->hide(); // Hide the edit URL Button
+  };
+
   return;
 }

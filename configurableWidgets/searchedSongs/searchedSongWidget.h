@@ -6,6 +6,7 @@
 #include <string>
 #include <QJsonObject>
 #include <QPushButton>
+#include <QLabel>
 
 class downloadWidget;
 class changeUrlWindow;
@@ -16,6 +17,8 @@ class searchedSong : public QWidget {
     std::map<std::string, QJsonObject> songDataJson;
     QWidget* topWidget;
     QPushButton* updateUrlButton;
+    QLabel* counterLabel;
+    QLabel* statusLabel;
   private:
     changeUrlWindow* settingsWindow;
 };

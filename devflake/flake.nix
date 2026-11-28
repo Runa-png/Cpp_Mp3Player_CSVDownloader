@@ -17,13 +17,36 @@
         pkgs.qt6.qtwayland
       ];
 
-      pythonEnv = pkgs.python3.withPackages (ps: with ps; [
-        yt-dlp
-        yt-dlp-ejs
-        fuzzywuzzy
+      yt-dlp-latest = pkgs.python3Packages.buildPythonApplication {
+        pname = "yt-dlp";
+        version = "2026.11.23";
+        pyproject = true;
+
+        src = pkgs.fetchPypi {
+          pname = "yt_dlp";
+          version = "2026.11.23";
+          hash = "sha256-Hbg3cqjeeFWi2rVRqU1/YXyIYp399QZTHAazabR/iKQ=";
+        };
+
+        build-system = with pkgs.python3Packages; [
+          hatchling
+        ];
+
+        dependencies = [
+          pkgs.python3Packages.yt-dlp-ejs
+        ];
+
+        pythonImportsCheck = [ "yt_dlp" ];
+        doCheck = false;
+      };
+
+      pythonEnv = pkgs.python3.withPackages (ps: [
+        ps.fuzzywuzzy
       ]);
 
     in {
+      packages.${system}.yt-dlp-latest = yt-dlp-latest;
+
       devShells.${system}.default = pkgs.mkShell {
         packages = with pkgs; [
           # C++ toolchain
@@ -42,6 +65,9 @@
 
           # Python
           pythonEnv
+
+          # yt-dlp
+          yt-dlp-latest
 
           # YouTube JavaScript challenge solving
           deno

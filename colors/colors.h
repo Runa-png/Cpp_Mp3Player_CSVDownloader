@@ -18,4 +18,12 @@ namespace colors {
   extern const std::string searchedSong;
   extern const std::string searchedSongButton;
   extern const std::string searchedSongText;
+
+  extern const std::string successSong;
+  extern const std::string successSongButton;
+  extern const std::string successSongText;
+
+  extern const std::string failSong;
+  extern const std::string failSongButton;
+  extern const std::string failSongText;
 }

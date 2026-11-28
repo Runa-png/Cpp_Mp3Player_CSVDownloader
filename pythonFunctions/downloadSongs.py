@@ -85,7 +85,7 @@ class songDataDownload:
 
       # If the path already exists, do not allow the download
       if self.checkFileExists(f"{self.PROJECT_ROOT}/appData/music/{fileName}.mp3"):
-        responseData = {"successful": False, "code": "102 Song already exists", "index": song["#"]}
+        responseData = {"successful": True, "code": "102 Song already exists", "index": song["#"]}
         print(json.dumps(responseData), flush=1)
         continue
       

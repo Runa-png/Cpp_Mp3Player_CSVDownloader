@@ -3,6 +3,11 @@
 #include <QHBoxLayout>
 #include <QStackedWidget>
 
+// Toolbar
+#include <QToolBar>
+#include <QToolButton>
+#include <QMenu>
+
 #include "widgets/mainWindow.h"
 
 #include "colors/colors.h"
@@ -46,6 +51,27 @@ topWidget::topWidget() : QWidget() {
   )
   ));
 
+  QVBoxLayout* mainLayout = new QVBoxLayout(mainWidget);
+  mainLayout->setContentsMargins(0,0,0,0);
+
+  // Main toolbar
+  QToolBar* toolbar = new QToolBar("main toolbar");
+
+  // Music Options
+  QToolButton* musicToolButton = new QToolButton();
+  musicToolButton->setStyleSheet(QString::fromStdString(std::format(R"(font-size:17px; font-weight: 550;)")));
+  musicToolButton->setText("Music");
+  musicToolButton->setPopupMode(QToolButton::InstantPopup);
+  
+  QMenu* musicMenu = new QMenu(musicToolButton);
+  musicMenu->setStyleSheet(QString::fromStdString(std::format(R"(QMenu {{background-color:{};}} QMenu::item {{color:{};}} QMenu::item:selected {{color: {}}})", colors::color5, colors::text1, colors::color1)));
+  QAction* downloadMusicSelected = musicMenu->addAction("Download Music");
+  QAction* manageMusicSelected = musicMenu->addAction("Manage Music");
+
+  musicToolButton->setMenu(musicMenu);
+  toolbar->addWidget(musicToolButton);
+
+  mainLayout->addWidget(toolbar);
   topLayout->addWidget(mainWidget);
 }
 

@@ -20,4 +20,13 @@ namespace colors {
   const std::string searchedSong = "#fffab1";
   const std::string searchedSongButton = "#cac471";
   const std::string searchedSongText = "#7b7200";
+
+  // Download
+  const std::string successSong = "#9fff8e";
+  const std::string successSongButton = "#5fff43";
+  const std::string successSongText = "#409930";
+
+  const std::string failSong = "#ff6767";
+  const std::string failSongButton = "#ff2c2c";
+  const std::string failSongText = "#5d0000";
 }

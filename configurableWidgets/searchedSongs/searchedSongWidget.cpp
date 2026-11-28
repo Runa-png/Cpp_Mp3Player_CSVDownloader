@@ -31,7 +31,7 @@ searchedSong::searchedSong(int height, QJsonObject songData, downloadWidget* par
   counterWidget->setFixedWidth(125);
   QVBoxLayout* counterLayout = new QVBoxLayout(counterWidget);
 
-  QLabel* counterLabel = new QLabel("Song: " + songData["#"].toString());
+  counterLabel = new QLabel("Song: " + songData["#"].toString());
   counterLabel->setStyleSheet(QString::fromStdString(std::format(R"(
       color: {};
       font-size: 17px;
@@ -73,6 +73,10 @@ searchedSong::searchedSong(int height, QJsonObject songData, downloadWidget* par
     )", colors::text3
   )));
   songInfoLayout->addWidget(songAlbumLabel);
+
+  statusLabel = new QLabel();
+  statusLabel->hide();
+  songInfoLayout->addWidget(statusLabel);
 
   topLayout->addWidget(songInfoWidget);
 
