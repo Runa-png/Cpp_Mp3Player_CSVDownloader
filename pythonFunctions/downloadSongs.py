@@ -100,7 +100,7 @@ class songDataDownload:
       
       else:                
         # Something happened when we wrote the song to the database
-        successWrite = self.writeSongToDB(fileName=fileName, songData=song) # Write song data to the DB
+        successWrite = self.writeSongToDB(fileName=f"{fileName}.mp3", songData=song) # Write song data to the DB
         if not successWrite["success"]:
           responseData = {"successful": False, "code": "101 UNIQUE constraint failed", "index": song["#"]}
           print(json.dumps(responseData), flush=1)
